@@ -24,7 +24,6 @@ func main() {
 		fmt.Printf("Index: %d, Value: %d\n", i, v)
 	}
 
-	// Value only
 	for v := range slice {
 		fmt.Println("Value:", v)
 	}
