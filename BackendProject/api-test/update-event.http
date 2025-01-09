@@ -1,0 +1,11 @@
+PUT http://localhost:8080/events/5
+content-type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6InN1bjJAaG90bWFpbC5jb20iLCJFeHBpcmF0aW9uVGltZSI6MTAwMCwiVXNlcklEIjoyfQ.VweNOyn4XN58qGdaqOsR73L0YojQF883W6hmZLDpBcI
+# Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6InN1bjNAaG90bWFpbC5jb20iLCJFeHBpcmF0aW9uVGltZSI6MTAwMCwiVXNlcklEIjozfQ.b5Vm1rYP4es_Mu3wev6YIKm6jp6u7m_BLLRN76syRpc
+
+{
+  "name": "Test event HHHHHHH",
+  "description": "asfa  dsf This is a test event2",
+  "location": "A location for test even22t",
+  "dateTime": "2027-02-02T15:30:30.000Z"
+}
