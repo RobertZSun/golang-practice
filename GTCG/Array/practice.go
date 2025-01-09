@@ -46,8 +46,8 @@ func main() {
 	// 	Product{id: "2", title: "Product 2", price: 2.99},
 	// }
 	myProducts := []Product{
-		Product{"first", "first-product", 1.99},
-		Product{"second", "second-product", 1.99},
+		{"first", "first-product", 1.99},
+		{"second", "second-product", 1.99},
 	}
 
 	myProducts = append(myProducts, Product{id: "3", title: "Product 3", price: 3.99})
